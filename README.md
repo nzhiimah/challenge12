@@ -14,8 +14,21 @@
 - Enum4linux
 
 ### Steps :
-1. 
+1. Identify Target IP Address
 
+Command: (Run inside Metasploitable 2)
+```
+ip a
+```
+Result :
+<img width="650" height="238" alt="Screenshot 2026-05-10 151320" src="https://github.com/user-attachments/assets/816bedd8-58d3-4b63-b90c-7b9265a424bd" />
+<br>
+
+Explanation :
+- The target machine IP address was identified as:
+```
+192.168.83.129
+```
 ---
 2. Verify SMB Ports
 
