@@ -67,6 +67,8 @@ Findings :
 
 | Username |
 |---|
+| games |
+| nobody |
 | msfadmin |
 | root |
 | user |
@@ -80,10 +82,12 @@ Findings:
 - SMB Shares
 
 | Share Name |
-|---|
+|---         |
+|print$      |
 | tmp |
 | opt |
 | IPC$ |
+| ADMIN$ |
 
 ---
 ### Conclusion
